@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+      <property name="show_sql">true</property>
+      
+    <mapping class="timetable.Disciplina"/>
+    <mapping class="timetable.Curso"/>
+    <mapping class="timetable.Calouros"/>
+    <mapping class="timetable.Curriculo"/>
+    <!--<mapping class="timetable.CreditoMinistrado"/>-->
+    <mapping class="timetable.DiscCurr"/>
+    <mapping class="timetable.Docente"/>
+    <mapping class="timetable.Horario"/>
+    <mapping class="timetable.Turma"/>
+    <mapping class="timetable.Sala"/>
+    <mapping class="timetable.PedidosCoordenadores"/>
+    <mapping class="timetable.VagasAtendidas"/>
+    <mapping class="timetable.VagasSolicitadas"/>
+    <mapping class="timetable.Periodo"/>
+  </session-factory>
+</hibernate-configuration>
